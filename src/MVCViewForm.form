@@ -16,16 +16,6 @@
           <text value="Publish"/>
         </properties>
       </component>
-      <component id="55aa2" class="javax.swing.JTextArea" binding="programmeringTextArea" default-binding="true">
-        <constraints>
-          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
-            <preferred-size width="150" height="50"/>
-          </grid>
-        </constraints>
-        <properties>
-          <text value="programmering "/>
-        </properties>
-      </component>
       <component id="bfc1e" class="javax.swing.JTable" binding="table1" default-binding="true">
         <constraints>
           <grid row="1" column="0" row-span="3" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="0" use-parent-layout="false">
@@ -33,6 +23,16 @@
           </grid>
         </constraints>
         <properties/>
+      </component>
+      <component id="55aa2" class="javax.swing.JTextArea" binding="programmeringTextArea" default-binding="true">
+        <constraints>
+          <grid row="0" column="0" row-span="1" col-span="1" vsize-policy="6" hsize-policy="6" anchor="0" fill="3" indent="2" use-parent-layout="false">
+            <preferred-size width="150" height="50"/>
+          </grid>
+        </constraints>
+        <properties>
+          <text value="programmering "/>
+        </properties>
       </component>
     </children>
   </grid>
