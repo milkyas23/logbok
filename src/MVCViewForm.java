@@ -24,7 +24,7 @@ public class MVCViewForm {
     }
 
     public String getUsername() {
-        return username.getName();
+        return username.getText();
     }
 
     public String getText() {

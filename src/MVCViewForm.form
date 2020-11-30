@@ -31,7 +31,7 @@
           </grid>
         </constraints>
         <properties>
-          <text value="programmering "/>
+          <text value="Medelande:"/>
         </properties>
       </component>
       <component id="a9a0b" class="javax.swing.JTextArea" binding="username">
@@ -40,7 +40,9 @@
             <preferred-size width="150" height="50"/>
           </grid>
         </constraints>
-        <properties/>
+        <properties>
+          <text value="Användnamn:"/>
+        </properties>
       </component>
     </children>
   </grid>

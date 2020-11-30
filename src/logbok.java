@@ -2,6 +2,9 @@ import javax.swing.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 import java.io.*;
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.SQLException;
 
 public class logbok {
     MVCViewForm view;
@@ -21,11 +24,18 @@ public class logbok {
     public static void main(String[] args) {
 
         logbok l = new logbok();
-
+        String password = "password";
 
         try {
+
+
+            Connection conn = DriverManager.getConnection(
+                    "jdbc:mysql://localhost:3306/te18? " +
+                            "allowPublicKeyRetrieval=true&useSSL=false&serverTimezone=UTC",
+                    "username", password);
+
             l.CharStreamExample();
-        } catch (IOException e) {
+        } catch (IOException | SQLException e) {
             e.printStackTrace();
         }
     }
